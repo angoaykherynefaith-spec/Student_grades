@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- External JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <h1>List of Enrolled Students</h1>
+
+    <!-- Student list table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+
+        <!-- Student records will appear here -->
+        <tbody id="studentTableBody">
+        </tbody>
+    </table>
+
+    <!-- Button to display grade equivalents -->
+    <button onclick="showGradeEquivalent()">
+        Show Grade Equivalent
+    </button>
+
+    <!-- Display evaluation results -->
+    <div id="result"></div>
+
+</body>
+</html>

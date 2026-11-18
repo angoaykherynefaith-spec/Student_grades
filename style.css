@@ -1,0 +1,52 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #fce4ec;
+}
+
+/* Heading colors */
+h1, h2 {
+    color: #880e4f;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+/* Table cells */
+th, td {
+    border: 1px solid #d81b60;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Table header */
+th {
+    background-color: #f48fb1;
+    color: white;
+}
+
+/* Button styling */
+button {
+    background-color: #d81b60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #880e4f;
+}
+
+/* Result table spacing */
+#result {
+    margin-top: 20px;
+}
